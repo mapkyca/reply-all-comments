@@ -61,7 +61,6 @@ foreach ($to_notify as $to_guid) {
                             $user->getURL()
                     ))
             );
-            echo "andhere";
     }
     
 }
