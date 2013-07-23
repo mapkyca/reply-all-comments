@@ -34,7 +34,7 @@ if (!$annotation) {
 $to_notify = array($entity->owner_guid);
 $annotations = elgg_get_annotations(array(
 	'annotation_name' => 'generic_comment',
-	'countainer_guid' => $entity->guid,
+	'container_guid' => $entity->guid,
 	'limit' => 0,
 	'type' => 'object',
 ));
